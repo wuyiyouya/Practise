@@ -1,0 +1,21 @@
+table {
+    border: 1px solid #AAAAAA;
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 80%;
+}
+
+table th {
+    background-color: #D5D5D5;
+    border: 1px solid #AAAAAA;
+    padding: 5px 15px 5px 5px;
+    text-align: left;
+    vertical-align: baseline;
+}
+
+table td {
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    padding: 5px 15px 5px 5px;
+    vertical-align: text-top;
+}

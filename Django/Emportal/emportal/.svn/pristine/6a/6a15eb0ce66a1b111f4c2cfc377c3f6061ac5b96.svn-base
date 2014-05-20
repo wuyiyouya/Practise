@@ -1,0 +1,13 @@
+<!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.01//EN">
+<html lang="en">
+<html>
+<head>
+	<title>EM Portal</title>
+	<h2>Welcome to EM Portal</h2>
+</head>
+<body>
+	<p><a href="Server List">Server List</a></p>
+	<p><a href="Server List">IP List</a></p>
+	<p><a href="Meals">Meals</a></p>
+</body>
+</html>

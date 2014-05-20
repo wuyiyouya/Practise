@@ -1,0 +1,35 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css" media="screen"/>
+	<title>Server List</title>
+</head>
+<body>
+	<form action="" method="POST">
+	{% csrf_token %}
+	<!-- 	<table>{{ form.as_table }}</table> -->
+		<table>
+			<th>Name</th>
+			<th>Model</th>
+			<th>Cpu</th>
+			<th>Memory</th>
+			<th>IP</th>
+			<th>Status</th>
+			<th>User</th>
+			<th>Location</th>
+			<th>Comment</th>
+		{% for server in serverlist %}
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		{% endfor%}
+		</table>
+	</form>
+</body>
+<html>

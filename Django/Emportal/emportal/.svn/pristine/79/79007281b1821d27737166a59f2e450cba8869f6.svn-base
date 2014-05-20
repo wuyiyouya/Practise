@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Servers>
+	<Server name="cdcjp06.cn.oracle.com" cpu="2" memory="8G" model="Dell Opti Plex 780">
+		<Status>Working</Status>
+		<User>Kevin</User>
+		<Comments>Comments</Comments>
+		<Location>55-1</Location>
+	</Server>
+	<Servers>
+	<Server name="cdcjp07.cn.oracle.com" cpu="2" memory="8G" model="Dell Opti Plex 780">
+		<Status>Working</Status>
+		<User></User>
+		<Comments>OVM Manager</Comments>
+		<Location>55-1</Location>
+	</Server>
+</Servers>

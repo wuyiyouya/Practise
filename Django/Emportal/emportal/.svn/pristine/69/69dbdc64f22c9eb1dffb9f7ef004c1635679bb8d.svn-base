@@ -1,0 +1,12 @@
+from django import forms
+
+class ServerForm(forms.Form):
+	name = forms.CharField(required=True, max_length=50)
+	cpu = forms.CharField(max_length=10)
+	memory = forms.CharField(max_length=10)
+	model = forms.CharField(max_length=50)
+	ip = forms.CharField(max_length=50)
+	status = forms.CharField(max_length=20)
+	user = forms.CharField(max_length=50)
+	location = forms.CharField(max_length=50)
+	comment = forms.CharField(max_length=100)

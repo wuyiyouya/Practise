@@ -1,0 +1,50 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css" media="screen"/>
+	<title>Server List</title>
+</head>
+<body>
+
+	<form name="search server" action="" method="POST">
+	{% csrf_token %}
+<!-- 		<table class="searchserver">{{ form.as_table }}</table> -->
+		<table class="searchserver">
+			<tr><th>Name:</th><td>{{ form.name }}</td></tr>
+			<tr><th>Status:</th><td>{{ form.status }}</td></tr>
+			<tr><th>User:</th><td>{{ form.user }}</td></tr>
+			<tr><th>Used:</th><td>{{ form.used }}</td></tr>
+			<tr><td><input type="submit" value="Submit"></input></td></tr>
+		</table>
+	</form>
+
+	<form name="server list" action="" method="POST">
+	{% csrf_token %}
+		<table class="serverlist">
+			<tr>
+				<th>Name</th>
+				<th>Model</th>
+				<th>Cpu</th>
+				<th>Memory</th>
+				<th>IP</th>
+				<th>Status</th>
+				<th>User</th>
+				<th>Location</th>
+				<th>Comment</th>
+			</tr>
+			{% for server in serverlist %}
+			<tr>
+				<td>{{ server.Name }}</td>
+				<td>{{ server.Model }}</td>
+				<td>{{ server.Cpu }}</td>
+				<td>{{ server.Memory }}</td>
+				<td>{{ server.IP }}</td>
+				<td>{{ server.Status }}</td>
+				<td>{{ server.User }}</td>
+				<td>{{ server.Location }}</td>
+				<td>{{ server.Comment }}</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</form>
+</body>
+<html>

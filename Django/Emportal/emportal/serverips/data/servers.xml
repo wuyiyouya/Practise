@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Servers>
+	<Server>
+		<Name>cdcjp06.cn.oracle.com</Name>
+		<Model>Dell Opti Plex 780</Model>
+		<Cpu>2</Cpu>
+		<Memory>8G</Memory>
+		<IP>10.182.20.26</IP>
+		<Status>Working</Status>
+		<User>Kevin</User>
+		<Location>55-1</Location>
+		<Comment>Comment</Comment>
+	</Server>
+	<Server>
+		<Name>cdcjp07.cn.oracle.com</Name>
+		<Model>Dell Opti Plex 780</Model>
+		<Cpu>2</Cpu>
+		<Memory>8G</Memory>
+		<IP>10.182.20.27</IP>
+		<Status>Working</Status>
+		<User></User>
+		<Location>55-1</Location>
+		<Comment>OVM Manager</Comment>
+	</Server>
+</Servers>
